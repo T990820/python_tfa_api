@@ -33,6 +33,9 @@ def cosh(x):
     else:
         return (np.exp(x)+np.exp(-1*x))/2
 
+def nextpow2(x):
+    return np.ceil(np.log2(x))
+
 def sqrt(x):
     if not isinstance(x, complex):
         if x >= 0:

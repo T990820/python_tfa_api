@@ -1,6 +1,4 @@
-test_parameter = {
-    'SNRmin': -10,
-    'SNRmax': -10,
-    'batch_size': 40
-}
-print(test_parameter['SNRmin'] )
+import utils
+import numpy as np
+print(utils.nextpow2(500))
+print(np.power(2,3))
